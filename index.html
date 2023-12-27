@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>HTML&CSS</title>
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--style attr that not preferd-->
+        <p style="color: blueviolet;">hello world</p> 
+        <p>hi</p> 
+        <h1>HTML FORMS</h1>
+        <form>
+        <label for="username">username</label>
+        <input type="text" name="username" id="username" placeholder="enter your name" required>
+        <br>
+        <label for="email">email</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="password">password</label>
+        <input type="password" name="password" id="password">
+        <br>
+        <h1>Radio Button</h1>
+        <!--name grouping the selection and value for send to server side and id for label -->
+        <label for="option1"> Male</label>
+        <input type="radio" name="gender" value="Male" id="option1">
+        <label for="option2">Female</label>
+        <input type="radio" name="gender" value="Female" id="option2">
+        <label for="option3">Other</label>
+        <input type="radio" name="gender" value="other" id="option3">
+        <h1>Drop DOwn List</h1>
+        <label for="q1">filter by</label>
+        <select name="questions" id="q1">
+            <option value="ans1">price</option>
+            <option value="ans2">category</option>
+            <option value="ans3">colour</option>
+        </select>
+        <br><br>
+        <label for="note"></label>
+        <textarea name="note" id="note" cols="30" rows="10"></textarea>
+    </form>
+    </body>
+</html>
