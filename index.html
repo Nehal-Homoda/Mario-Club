@@ -1,12 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-       <title>HTML&CSS</title>
-       <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <!--style attr that not preferd-->
-        <p style="color: blueviolet;">hello world</p> 
+  <head>
+    <title>Mario Club</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!---html5 semantic tags header-->
+    <header>
+      <h1>Mario Club</h1>
+    </header>
+    <!--html semantic tag section-->
+    <section class="banner">
+      <img src="images/banner.png" alt="banner" />
+      <div class="welcome">
+        <h2>
+          welcome to <br />
+          <span>Mario Club</span>
+        </h2>
+      </div>
+    </section>
+    <!--html semantic tag navigation-->
+    <nav>
+      <ul class="main-nav">
+        <li><a href="">join our club</a></li>
+        <li><a href="">latest news</a></li>
+        <li><a href="">new games</a></li>
+        <li><a href="">contact us</a></li>
+      </ul>
+    </nav>
+    <!--semantic tag main content of homepage-->
+    <main>
+      <article>
+        <h2>it's me ,Mario</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia
+          vitae hic neque at, ipsum, culpa saepe mollitia consectetur molestias
+          natus ex cupiditate officiis autem quos nam nihil in odio debitis!
+        </p>
+      </article>
+      <ul class="images">
+        <li><img src="images/thumb-1.png" alt="" /></li>
+        <li><img src="images/thumb-2.png" alt="" /></li>
+      </ul>
+    </main>
+    <section class="join">
+      <h1>Join us</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id hic nam
+        fugiat magnam quaerat, rem perferendis laboriosam aliquid esse illo vel
+        odit adipisci culpa consequuntur consequatur porro aspernatur distinctio
+        officiis?
+      </p>
+      <form>
+        <input
+          type="email"
+          name="email"
+          placeholder="enter your email"
+          required
+        />
+      </form>
+    </section>
+    <!--semantic tag footer-->
+    <footer>
+      <p class="copyright">copyright 2000</p>
+    </footer>
+    <!-- style attr that not preferd -->
+    <!-- <p style="color: blueviolet;">hello world</p> 
         <p>hi</p> 
         <h1>HTML FORMS</h1>
         <form>
@@ -19,9 +78,9 @@
         <label for="password">password</label>
         <input type="password" name="password" id="password">
         <br>
-        <h1>Radio Button</h1>
-        <!--name grouping the selection and value for send to server side and id for label -->
-        <label for="option1"> Male</label>
+        <h1>Radio Button</h1> -->
+    <!--name grouping the selection and value for send to server side and id for label -->
+    <!-- <label for="option1"> Male</label>
         <input type="radio" name="gender" value="Male" id="option1">
         <label for="option2">Female</label>
         <input type="radio" name="gender" value="Female" id="option2">
@@ -37,6 +96,6 @@
         <br><br>
         <label for="note"></label>
         <textarea name="note" id="note" cols="30" rows="10"></textarea>
-    </form>
-    </body>
+    </form> -->
+  </body>
 </html>
